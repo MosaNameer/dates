@@ -25,8 +25,9 @@
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!-- Alpine.js CDN -->
   </head>
-  <body dir="rtl" class="leading-normal tracking-normal text-white gradient"
-    style="font-family: 'Source Sans Pro', sans-serif;">
+  <body dir="rtl"
+    class="leading-normal tracking-normal text-white gradient bg-white"
+    >
     <!--Nav-->
     <nav id="header" class="fixed w-full z-30 top-0 text-white hidden md:block">
       <div
@@ -74,7 +75,7 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-right">
           <p
-            class="uppercase tracking-loose w-full font-bold text-2xl lgtext-4xl text-gray-800">جهاز
+            class="uppercase tracking-loose w-full font-bold text-2xl lgtext-4xl">جهاز
             فرز حجم التمور</p>
           <h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight">
             الجهاز الأمثل في فرز حجم التمور ما بين الاجهزه في السعوديه
@@ -85,7 +86,7 @@
 
           </p>
           <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-12 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             شراء
           </button>
         </div>
@@ -121,10 +122,10 @@
         </g>
       </svg>
     </div>
-    <section id="section1" class="bg-white border-b py-8">
+    <section id="section1" class="bg-white  py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2
-          class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          class="w-full my-2 text-5xl font-bold leading-tight text-center mb-5 text-gray-800">
           طريقة العمل
         </h2>
         <div class="w-full mb-10">
@@ -133,7 +134,7 @@
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
           <div class="sm:w-1/2 p-6 flex flex-col justify-center items-center">
             <h3
-              class="text-3xl text-gray-800 font-bold leading-none mb-3 text-center md:text-right">
+              class="text-3xl text-gray-800 font-semibold leading-none mb-3 text-center md:text-right">
               اذا كنت من أصحاب المزارع او متاجر التمور فالجهاز ضروري لك ومهم
             </h3>
             <p class="text-gray-600">
@@ -159,7 +160,7 @@
             <div
               class="align-middle flex flex-col justify-center items-center self-center">
               <h3
-                class="text-3xl text-gray-800 font-bold leading-none mb-3 text-center md:text-right">
+                class="text-3xl text-gray-800 font-semibold leading-none mb-3 text-center md:text-right">
                 يمكن تخصيصها بالحجم الذي تريده بسهوله
               </h3>
               <p class="text-gray-600">
@@ -191,18 +192,17 @@
     </section>
 
     <!-- table -->
-
-    <div class="bg-white py-8">
+    <div id="section2" class="bg-white py-8">
       <h2
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        الشراء 
+        class="w-full my-2 text-5xl font-bold leading-tight text-center mb-5 text-gray-800">
+        الشراء
       </h2>
       <div class="w-full mb-10">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
     </div>
-    <section id="section2"
-      class="bg-white border-b py-8 w-full flex justify-center">
+    <section
+      class="bg-white py-8 w-full flex justify-center">
       <div
         class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl">
         <div
@@ -224,38 +224,45 @@
             22000 الف ريال سعودي سابقا
             السعر الحالي 15000 الف ريال سعودي فقط.
           </p>
+          <strike class="text-xl">
+            22000 رس
+          </strike>
+          <h1 class="text-2xl text-green-500">
+            15000 رس
+          </h1>
         </div>
-        <div class="p-6 pt-0">
+        <div class="flex justify-center p-6 pt-0">
           <button
-            class="select-none flex justify-center items-center gap-4 rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            class="w-full flex justify-center items-center gap-4 rounded-lg bg-pink-500 py-3 px-6 text-center align-middle text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             type="button"
             data-ripple-light="true">
-            <span>
-              شراء
-            </span>
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="31.76" height="32"
-                viewBox="0 0 256 258"><defs><lineargradient
-                    id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%"><stop
-                      offset="0%" stop-color="#1FAF38" /><stop offset="100%"
-                      stop-color="#60D669" /></lineargradient><lineargradient
-                    id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%"><stop
-                      offset="0%" stop-color="#F9F9F9" /><stop offset="100%"
-                      stop-color="#FFF" /></lineargradient></defs><path
-                  fill="url(#logosWhatsappIcon0)"
-                  d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a122.994 122.994 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004" /><path
-                  fill="url(#logosWhatsappIcon1)"
-                  d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416Zm40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513l10.706-39.082Z" /><path
-                  fill="#FFF"
-                  d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561c0 15.67 11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716c-3.186-1.593-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64" /></svg>
+            <div class="flex justify-center gap-2 items-center">
+              <span>
+                شراء
+              </span>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="31.76" height="32"
+                  viewBox="0 0 256 258"><defs><lineargradient
+                      id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%"><stop
+                        offset="0%" stop-color="#1FAF38" /><stop offset="100%"
+                        stop-color="#60D669" /></lineargradient><lineargradient
+                      id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%"><stop
+                        offset="0%" stop-color="#F9F9F9" /><stop offset="100%"
+                        stop-color="#FFF" /></lineargradient></defs><path
+                    fill="url(#logosWhatsappIcon0)"
+                    d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a122.994 122.994 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004" /><path
+                    fill="url(#logosWhatsappIcon1)"
+                    d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416Zm40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513l10.706-39.082Z" /><path
+                    fill="#FFF"
+                    d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561c0 15.67 11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716c-3.186-1.593-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64" /></svg>
+              </div>
             </div>
-
           </button>
         </div>
       </div>
     </section>
 
-    <div class="flex justify-center items-center">
+    <div class="flex py-8 w-full justify-center items-center bg-white">
       <video
         src="video.mp4"
         controls
@@ -293,8 +300,8 @@
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <h3 class="my-4 text-3xl leading-tight">
-        للتواصل اتصال وواتساب على الرقم 0534588761
+      <h3 class="my-4 text-3xl leading-tight font-semibold">
+        للتواصل اتصال واتساب على الرقم 0534588761
       </h3>
     </section>
     <!--Footer-->
