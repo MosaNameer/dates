@@ -1,0 +1,22 @@
+{
+  "name": "dates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosaNameer/dates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MosaNameer/dates/issues"
+  },
+  "homepage": "https://github.com/MosaNameer/dates#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
