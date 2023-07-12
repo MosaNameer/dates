@@ -28,7 +28,7 @@
   <body dir="rtl" class="leading-normal tracking-normal text-white gradient"
     style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Nav-->
-    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+    <nav id="header" class="fixed w-full z-30 top-0 text-white hidden md:block">
       <div
         class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 
@@ -54,7 +54,7 @@
             <li class="mr-3">
               <a
                 class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
-                href="#">شراء</a>
+                href="#section2">شراء</a>
             </li>
             <li class="mr-3">
               <a
@@ -190,10 +190,19 @@
       </div>
     </section>
 
-
-    
     <!-- table -->
-    <section id="section2" class="bg-white border-b py-8 w-full flex justify-center">
+
+    <div class="bg-white py-8">
+      <h2
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        الشراء 
+      </h2>
+      <div class="w-full mb-10">
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+    </div>
+    <section id="section2"
+      class="bg-white border-b py-8 w-full flex justify-center">
       <div
         class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl">
         <div
@@ -247,7 +256,7 @@
     </section>
 
     <div class="flex justify-center items-center">
-      <video 
+      <video
         src="video.mp4"
         controls
         class="md:w-2/4">
