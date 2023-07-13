@@ -45,20 +45,20 @@
         <div
           class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
           id="nav-content">
-          <ul class="list-reset lg:flex justify-start flex-1 items-center">
+          <ul id="ultext" class="list-reset lg:flex justify-start flex-1 items-center text-white">
             <li class="mr-3">
               <a
-                class="inline-block py-2 px-4 text-white no-underline text-lg"
+                class="inline-block py-2 px-4 no-underline text-lg"
                 href="#section1">طريقة العمل</a>
             </li>
             <li class="mr-3">
               <a
-                class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
+                class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
                 href="#section2">شراء</a>
             </li>
             <li class="mr-3">
               <a
-                class="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
+                class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
                 href="#section3">التواصل</a>
             </li>
           </ul>
@@ -84,10 +84,10 @@
             عملي ويعتمد عليه
 
           </p>
-          <a href="https://api.whatsapp.com/send?phone=+966534588761&text=مرحبا"
+          <button
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-12 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             شراء
-          </a>
+          </button>
         </div>
         <!--Right Col-->
         <div
@@ -318,7 +318,7 @@
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <h3 class="my-4 text-3xl leading-tight font-semibold">
+      <h3 class="my-4 text-3xl leading-tight font-semibold gradient">
         للتواصل اتصال واتساب على الرقم 0534588761
       </h3>
     </section>
@@ -418,6 +418,7 @@
   -->
     <script>
       var scrollpos = window.scrollY;
+      var change = document.getElementById("ultext");
       var header = document.getElementById("header");
       var navcontent = document.getElementById("nav-content");
       var navaction = document.getElementById("navAction");
@@ -430,8 +431,10 @@
 
         if (scrollpos > 10) {
           header.classList.add("bg-white");
+          change.classList.remove("text-white");
+          change.classList.add("text-gray-800");
           navaction.classList.remove("bg-white");
-          navaction.classList.add("gradient");
+          navaction.classList.add("gradient ");
           navaction.classList.remove("text-gray-800");
           navaction.classList.add("text-white");
           //Use to switch toggleColour colours
