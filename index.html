@@ -14,6 +14,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
       rel="stylesheet" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap"
+      rel="stylesheet">
+
     <link rel="stylesheet"
       href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
     <!--Replace with your tailwind.css once created-->
@@ -30,47 +36,7 @@
     <!-- Alpine.js CDN -->
   </head>
   <body dir="rtl"
-    class="leading-normal tracking-normal text-white  bg-white">
-    <!--Nav-->
-    <!-- <nav id="header" class="fixed w-full z-30 top-0 text-white hidden md:block">
-      <div
-        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-
-        <div class="block lg:hidden pr-4">
-          <button id="nav-toggle"
-            class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
-        <div
-          class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
-          id="nav-content">
-          <ul id="ultext"
-            class="list-reset lg:flex justify-start flex-1 items-center text-white">
-            <li class="mr-3">
-              <a
-                class="inline-block py-2 px-4 no-underline text-lg"
-                href="#section1">طريقة العمل</a>
-            </li>
-            <li class="mr-3">
-              <a
-                class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
-                href="#section2">شراء</a>
-            </li>
-            <li class="mr-3">
-              <a
-                class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 text-lg"
-                href="#section3">التواصل</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
-    </nav> -->
+    class="leading-normal tracking-normal text-white font-sans font-medium bg-white">
 
     <div class="pt-12 gradient">
       <div
@@ -141,21 +107,21 @@
         <div
           class="p-6 flex flex-col justify-center items-center md:justify-start md:items-start">
           <h3
-            class="text-3xl text-gray-800 font-semibold leading-none mb-3 text-center md:text-right animate-jump animate-once">
+            class="text-3xl text-gray-800 font-bold leading-none mb-3 text-center md:text-right animate-jump animate-once">
             اهمية الجهاز ومميزاته
           </h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 text-justify">
             يعمل الجهاز على فرز التمور بشكل سريع للغاية ويوفر عليك الوقت
             والجهد
             والمال المبذول
             بمجرد ادخال التمور من اعلى الجهاز يقوم الجهاز بعمله بسرعه وبكفائه
             عالية, ويمكن تخصيصها بالحجم الذي تريده بسهوله,
           </p>
-          <div class="text-gray-600">
-            <p>
+          <div class="text-gray-600 ">
+            <p class="text-justify">
               فهو الجهاز الأمثل في فرز حجم التمور ما بين الاجهزه في السعوديه
             </p>
-            <p>
+            <p class="text-justify">
               بالاضافة الى سهولة الاستخدام والصيانة وسريع في عمله ويعتمد عليه
             </p>
           </div>
@@ -164,21 +130,22 @@
 
         <div
           class="p-6 flex flex-col justify-center items-center md:justify-start md:items-start">
-          <p class="text-gray-600 mb-8 lg:mb-0 text-center md:text-right">
+          <p
+            class="text-gray-600 mb-8 lg:mb-0 text-center md:text-right text-justify">
             يقوم السير بالتحرك بشكل سريع وسلسل ويمر على 6 خانات تفرز من خلالها
             التمور
             من اول خانه يخرج منها التمر الأصغر الى اخر خانه يخرج منها التمر
             الأكبر
             <br />
           </p>
-          <p class="text-gray-600">
+          <p class="text-gray-600 text-justify">
             فاذا كنت من أصحاب المزارع او متاجر التمور فالجهاز ضروري لك ومهم.
           </p>
         </div>
 
         <div
           class="p-6 flex flex-col justify-center items-center md:justify-start md:items-start">
-          <p class="text-gray-600">
+          <p class="text-gray-600 text-justify">
             يمكنك شراء الجهاز مع ضمان على المنتج لمده سنه كامله من الأعطال
             والعيوب المصنعية مع
             التدريب المجاني
@@ -191,7 +158,7 @@
     </section>
 
     <!-- sliders -->
-    <h1 class="text-gray-600 font-semibold flex justify-center text-xl mb-5">
+    <h1 class="text-gray-600 font-bold flex justify-center text-xl mb-5">
       صور الجهاز
     </h1>
     <section class="flex justify-center w-full mb-36">
@@ -277,10 +244,11 @@
     </section>
 
     <!-- video -->
-    <h1 class="text-gray-600 font-semibold flex justify-center text-xl mb-5">
-       فديو تعريفي للجهاز
+    <h1 class="text-gray-600 font-bold flex justify-center text-xl mb-5">
+      فديو تعريفي للجهاز
     </h1>
-    <div class="flex py-8 w-full md:w-7/12 mx-auto justify-center items-center bg-white">
+    <div
+      class="flex py-8 w-full md:w-7/12 mx-auto justify-center items-center bg-white">
       <!-- <video
         src="https://youtu.be/A61KW97Bbz4"
         controls
@@ -317,7 +285,7 @@
         </div>
         <div class="p-6">
           <h5
-            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+            class="mb-2 block font-sans text-xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
             جهاز فرز حجم التمور
           </h5>
           <p
@@ -395,11 +363,11 @@
         </g>
       </g>
     </svg>
-    <section id="section3" class="container mx-auto text-center py-6  gradient">
+    <section id="section3" class="mx-auto text-center py-6  gradient w-full">
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <h3 class="my-4 text-3xl leading-tight font-semibold gradient">
+      <h3 class="my-4 text-3xl leading-tight font-bold gradient">
         للتواصل اتصال واتساب على الرقم 0534588761
       </h3>
     </section>
